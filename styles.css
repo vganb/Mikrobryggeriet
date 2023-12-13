@@ -61,3 +61,52 @@ a:link, a:visited {
     position: absolute;
     margin-bottom: 5rem;
 } */
+
+.beer-section img {
+    width: 20rem;
+}
+
+.beer-section {
+    display: flex;
+    margin-top: 6rem;
+    justify-content: space-around;
+    color: white;
+}
+
+.beer-item {
+    width: 20rem;
+}
+
+.beer-tasting-section {
+    color: white;
+    border-top: 1px solid white;
+    width: 90%;
+    margin: auto;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.explore-section {
+    color: white;
+    border-top: 1px solid white;
+    width: 90%;
+    margin: auto;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.social-footer {
+    margin-top: 6rem;
+    height: 10rem;
+    background-color: black; 
+    color: white;  
+    gap: 15px;
+    padding: 10px;
+}
+
+.socials {
+    display: flex;
+    align-items: flex-end;
+    height: 90%;
+    gap: 15px;
+}
