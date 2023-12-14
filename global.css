@@ -2,5 +2,6 @@
     --clr-bg-main: #252424;
     --clr-nav: #000000;
     --clr-nav-links: #ffffff;
-    --clr-btn-primary: #e2e2e2;
+    --clr-btn-primary: rgb(226, 178, 5);
+    --clr-btn-hover: rgb(160, 127, 6);
 }
