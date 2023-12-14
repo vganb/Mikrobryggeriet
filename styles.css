@@ -14,6 +14,11 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+.navbar-logo {
+    width: 50px; /* Justera bredden efter behov */
+    height: auto; /* Säkerställ att höjden justeras proportionellt */
+    margin-right: 10px; /* Justera marginalen efter behov */
+  }
 
 a:link, a:visited {
     text-decoration: none;
