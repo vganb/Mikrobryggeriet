@@ -83,17 +83,23 @@ a:link, a:visited {
 
 .beer-section img {
     width: 20rem;
+    height: 20rem;
+    border: 1px solid black;
+    border-radius: 2px;
 }
 
 .beer-section {
     display: flex;
     margin-top: 6rem;
-    justify-content: space-around;
+    justify-content: center;
     color: white;
 }
 
 .beer-item {
     width: 20rem;
+}
+.beer-description{
+    padding: 10px;
 }
 
 .beer-tasting-section {
