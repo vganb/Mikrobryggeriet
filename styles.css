@@ -105,6 +105,14 @@ a:link, a:visited {
     text-align: center;
 }
 
+.beer-tasting-section__content {
+    margin-top: 6rem;
+}
+
+.explore-section__content {
+    margin-top: 6rem;
+}
+
 .explore-section {
     color: white;
     border-top: 1px solid white;
