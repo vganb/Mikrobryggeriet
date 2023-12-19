@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: var(--clr-bg-main);
+}
+
+.main-navigation {
+    /* padding: 10px; */
+    background-color: var(--clr-nav);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-navigation__logo img {
+    height: 50px;
+}
+
+.main-navigation__section {
+    display: flex;
+    gap: 2rem;
+    margin-right: 10px;
+}
+.navbar-logo {
+    width: 50px; /* Justera bredden efter behov */
+    height: auto; /* Säkerställ att höjden justeras proportionellt */
+    margin-right: 10px; /* Justera marginalen efter behov */
+  }
+
+a:link, a:visited {
+    text-decoration: none;
+    color: var(--clr-nav-links);
+    font-size: 1.5rem;
+    /* color: var(--clr-bg-main); */
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+.content-section {
+    padding: .5rem;
+}
+
+.team-section {
+    text-align: center;
+    margin-top: 5rem;
+    padding: .5rem;
+}
+
+.team-section h2 {
+    margin-bottom: 3rem;
+}
+
+.team-section p {
+    margin-top: 3rem;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.team-section img {
+    width: 15rem;
+    height: 15rem;
+}
+
+
+
+.social-footer {
+    margin-top: 6rem;
+    height: 10rem;
+    background-color: black; 
+    color: white;  
+    gap: 15px;
+    padding: 10px;
+}
+
+.socials {
+    display: flex;
+    align-items: flex-end;
+    height: 90%;
+    gap: 15px;
+}
