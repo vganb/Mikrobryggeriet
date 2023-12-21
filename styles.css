@@ -140,6 +140,7 @@ a:link, a:visited {
 .socials {
     display: flex;
     align-items: flex-end;
-    height: 90%;
+    height: 60%;
     gap: 15px;
+    background-color: black;
 }
