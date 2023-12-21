@@ -77,8 +77,14 @@ h1 {
 }
 
 .team-section img {
-    width: 15rem;
-    height: 15rem;
+    height: 17rem;
+    border-radius: 5%;
+    max-width: 100%;
+    width: auto;
+}
+
+.member-name {
+    padding-top: 15px;
 }
 
 
